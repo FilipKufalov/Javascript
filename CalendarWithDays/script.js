@@ -11,6 +11,6 @@ MonthString = ["January", "February", "March", "April", "May", "June", "July",
 console.log(`Calendar for ${CalendarYear}`);
 
 for (let i = 0; i < 12; i++) {
-    let Months = getDaysInMonth(2022, i);
+    let Months = getDaysInMonth(today.getFullYear, i);
     console.log(`${MonthString[i]} ${Months}`);
 }
