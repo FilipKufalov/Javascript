@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Quiz</title>
+    <link rel="stylesheet" href="flags-all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Geography Quiz, <span class="red">Points:</span> <label id="points"></label></h1>
+    <h3>Correct Guess = <span class="green">5 Points</span></h3>
+    <h3>Show Answer = <span class="red">-5 Points</span></h3>
+    <h3>Incorrect Guess = <span class="red">-3 Points</span></h3>
+    <h3>Skip = <span class="red">-1 Points</span></h3>
+    <hr>
+    <p>Can you name the country this flag belongs to?</p>
+    <div>
+        <img src="https://media.istockphoto.com/vectors/backhand-index-pointing-down-color-icon-vector-id1184691449?k=20&m=1184691449&s=612x612&w=0&h=qTYaf0uQiZ97ba3U8YSCa81ZwRK0kxg7fibfIXkV1kw="
+            id="country"></img>          
+    </div>
+    <p id="answer"></p>
+    <button onclick="skipFlag()">Next Flag</button>
+    <button onclick="showAnswer()">Show Answer</button>
+    <script src="./game.js"></script>
+</body>
+</html>
