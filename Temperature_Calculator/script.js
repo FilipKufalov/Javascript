@@ -1,11 +1,9 @@
 function CelsiusToFahrenheit(celsius)
 {
-    let temperature = celsius * 1.8 + 32;
-    return temperature;
+    return celsius * 1.8 + 32;
 }
 
 function FahrenheitToCelsius(fahrenheit)
 {
-    let temperature = (fahrenheit - 32) * 0.5556;
-    return temperature;
+    return (fahrenheit - 32) * 0.5556;;
 }
