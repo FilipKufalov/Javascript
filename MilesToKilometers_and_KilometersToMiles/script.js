@@ -1,6 +1,3 @@
-let km;
-let miles;
-
 function MilesToKilometers(km)
 {
     return km * 1.609344;
